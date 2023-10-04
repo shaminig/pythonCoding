@@ -1,0 +1,10 @@
+import random
+names_list=input("enter the list of people who took meal at restuarant seperated by comma and space     ")
+names=names_list.split(", ")
+print(names)
+length=len(names)
+print(length)
+choice=random.randint(0,length-1)
+print(choice)
+print(names[choice])
+print(f"{names[choice]} will pay the bill")
